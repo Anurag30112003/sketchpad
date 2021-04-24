@@ -1,0 +1,17 @@
+## Inspiration
+In this Covid times , there's a lockdown everywhere and the school classes are shifted to online mode,
+through this webapp teachers could share whiteboard with students and can teach them.
+## What it does
+It is online whiteboard and graphic editor, one can share whiteboard to others and it can also used for web and graphic designing purposes .
+## How we built it
+We build it with frontend - html css ,javascript
+backend - nodejs
+API's - google font and bootstrap.
+## Challenges we ran into
+As I was new to google font api , was unable to merge with project.
+## Accomplishments that we're proud of
+To help students , teachers , graphic designers and many more in this covid time.
+## What we learned
+How to use google api.
+## What's next for SketchPad.pro
+Improve UI and UX and add screen sharing and chat section.
