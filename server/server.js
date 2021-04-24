@@ -8,7 +8,7 @@ require("colors");
 
 var crypto = require('crypto');
 var port = 8067;
-console.log(String("=================").yellow, String("✍").green, String("Welcome").rainbow.underline, String("⚑").green, "to", String("SketchpadJS by positivestudio.co -- AGPL --").inverse, String("✐").red, String("=================").yellow);
+console.log(String("=================").yellow, String("✍").green, String("Welcome").rainbow.underline, String("⚑").green, "to", String("SketchpadJS by Anurag").inverse, String("✐").red, String("=================").yellow);
 
 console.log("[", String("notice").green, "] Starting 'sketchpad' server on port", port, "...");
 

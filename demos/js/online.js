@@ -57,7 +57,7 @@ function initSketchpad() {
     connectToServer(primaryServer, splitScreen, function () {
         console.log("Primary server fail, trying secondary server...", secondaryServer);
         connectToServer(secondaryServer, splitScreen, function () {
-            alert("Connection fail.\n\nFollow instructions from: \nhttp://developers.sketchpad.pro\n \nto setup your own sketchpad server.");
+            alert("Connection fail.\n\n setup your own sketchpad server.");
         });
     });
 

@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/cojapacze/sketchpad.git"
+    "url": "git+https://github.com/Anurag30112003/sketchpad.git"
   },
   "keywords": [
     "sketch",
@@ -24,7 +24,7 @@
   "author": "positivestudio.co",
   "license": "AGPL-3.0",
   "bugs": {
-    "url": "https://github.com/cojapacze/sketchpad/issues"
+    "url": "https://github.com/Anurag30112003/sketchpad.git"
   },
   "homepage": "https://github.com/cojapacze/sketchpad#readme",
   "dependencies": {
