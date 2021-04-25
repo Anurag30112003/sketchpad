@@ -80,6 +80,7 @@
         <p>Sketchpad.pro is fully customizable javascript library written in ES5.</p>
        
       </div>
+
       <!-- rem:include:.ads-main.html:__ -->
       
 
@@ -110,6 +111,29 @@
     
   </div>
 </div>
+<div><section>
+  <img class="mySlides" src="logo-2582748_1280.png" style="width:100%">
+  <img class="mySlides" src="logo-2582747_1280.png" style="width:100%">
+  <img class="mySlides" src="JavaScript-Logo.png" style="width:100%">
+</section></div>
+
+<script>
+// Automatic Slideshow - change image every 3 seconds
+var myIndex = 0;
+carousel();
+
+function carousel() {
+  var i;
+  var x = document.getElementsByClassName("mySlides");
+  for (i = 0; i < x.length; i++) {
+    x[i].style.display = "none";
+  }
+  myIndex++;
+  if (myIndex > x.length) {myIndex = 1}
+  x[myIndex-1].style.display = "block";
+  setTimeout(carousel, 3000);
+}
+</script>
 
     <!-- tether.min.js -->
     <script src="https://developers.sketchpad.pro/js/tether.min.js"></script>
